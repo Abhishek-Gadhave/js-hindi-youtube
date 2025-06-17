@@ -23,10 +23,25 @@ const isUserLoggedIn = Number(UserLoggedIn);
 
 let islogOut = 0;
 let logOut = Boolean(islogOut);
-console.log(typeof (logOut))
+//console.log(typeof (logOut))
 
 //0=>false 1=>true
 //""=>false "abhishek" => true
-let someNumber = 33
-let stringNumber = String(someNumber);
-console.log(typeof stringNumber);
+// let someNumber = 33
+// let stringNumber = String(someNumber);
+// console.log(typeof stringNumber);
+
+
+//*************Operations */
+
+let value = 3
+let negValue = - value;
+// console.log(negValue)
+
+let name = "Rajlaxmi"
+let middleName = " Rahul"
+let sirName = " Wankhede"
+console.log (name + middleName + sirName)
+
+console.log("2" + 3 + 5);
+console.log(2 + 4 + "8")
