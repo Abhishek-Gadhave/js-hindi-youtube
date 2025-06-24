@@ -30,3 +30,26 @@ const myFunction = function Rada(){
 }
 
 console.log(typeof myFunction)
+
+/********************Memory */
+
+//stack(primitive) ,Heap(non-primitive)
+
+let name = "abhishek"
+name3 = name;
+name3 = "prajakta"
+console.log(name)
+console.log(name3);
+
+const userName = {
+    email: "@google.com",
+    name:"sham"
+}
+
+let userTwo= userName;
+
+userTwo.name = "Abhi";
+console.log(userTwo);
+
+//all primitive value goes inside the stack where all non primitive value goes inside the heap
+// stack will give the copy of the value while in heap it will take the reference of the previouse value
